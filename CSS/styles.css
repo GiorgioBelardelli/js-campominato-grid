@@ -1,0 +1,37 @@
+:root{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+header{
+    background-color: #fff;
+}
+
+main{
+    background-color: #7fffd4;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.row h1{
+    display: inline;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+#logo{
+    vertical-align: middle;
+    width: 3rem;
+    margin: 0 1.5rem;
+}
