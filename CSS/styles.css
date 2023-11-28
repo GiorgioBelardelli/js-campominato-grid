@@ -79,8 +79,8 @@ form label{
 
 .square{
     border: 1px solid #000;
-    width: 75px;
-    height: 75px;
+    width: calc(100% / 10);
+    height: 75px ;
     display: flex;
     align-items: center;
     justify-content: center;

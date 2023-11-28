@@ -79,7 +79,7 @@ form label{
 
 .square{
     border: 1px solid #000;
-    width: 75px;
+    width: calc(100% / 10);
     height: 75px;
     display: flex;
     align-items: center;
@@ -97,4 +97,11 @@ form label{
 .clicked{
     background-color: #1666ce;
     color: #fff;
+}
+
+.squareMedium{
+    width: calc(100% / 9);
+}
+.squareHard{
+    width: calc(100% / 7);
 }
